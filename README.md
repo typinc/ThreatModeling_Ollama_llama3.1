@@ -1,14 +1,12 @@
 # README
 
 ## Instructions
-* Install Ollama
-* In a console: ollama run llama3.1
+* Install Ollama: https://ollama.com/
+* In a console: ollama run llama3.1 (it will pull the latest version)
 * In your venv: pip install -r requirements.txt
-* Run generate_repository_profile.py to test if the setup is working
 
 ## Informations
-* If you have a GPU installed, the FAISS library will use the GPU for the workload. If no GPU is detected, the workload will use your CPU.
-* The content of the _chain.stream_ methode can be modified 
+
   * EXAMPLE: 
 ```
    Tell me the following information about the code base I am providing you:
